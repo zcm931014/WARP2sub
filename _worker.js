@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取订阅器默认节点，/auto
 
-let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
+let mytoken= ['zcm'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认987
 let addresses = [
@@ -14,9 +14,9 @@ let addressesapi = [
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
-let DELAY = 180;//延迟上限
+let DELAY = 150;//延迟上限
 let addressescsv = [
-	'https://raw.githubusercontent.com/cmliu/WARP2sub/main/result.csv', //warp-yxip测速结果文件。
+	'https://raw.githubusercontent.com/zcm931014/WARP2sub/main/result.csv', //warp-yxip测速结果文件。
 ];
 
 let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -30,7 +30,7 @@ let timestamp = 4102329600000;//2099-12-31
 let WarpKeys = [//本地WARP密钥池
 	//'iNw48fdfcf4wrc9i7A21gyFG09a3E3NPydvb2ysTQGY=',
 ];
-let WarpKeyURL = 'https://raw.githubusercontent.com/cmliu/WARP2sub/main/WarpKey';//在线WARP密钥池URL
+let WarpKeyURL = 'https://raw.githubusercontent.com/zcm931014/WARP2sub/main/WarpKey';//在线WARP密钥池URL
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
 let EndPS = '';//节点名备注内容
 
